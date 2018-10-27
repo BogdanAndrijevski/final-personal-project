@@ -1,0 +1,69 @@
+﻿input {
+    margin-top:15px;
+}
+
+#registerLink {
+    /*background-color: #118cb2 !important;*/
+    /*background-color: #0b7da0 !important;
+    border: 1px solid #35b5dd !important;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;*/
+    /*transition: background-color 1s, border-color 1s, color 1s;*/
+    margin: 20px;
+    margin-left: 5px;
+    float: left;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 28px;
+    color: #35b5dd;
+    margin-top:30px;
+}
+
+#registerLink:hover {
+    color: #51d5ff;
+    text-decoration: none;
+}
+
+#btnLogin {
+    /*background-color: #118cb2 !important;*/
+    /*background-color: #0b7da0 !important;*/
+    background-color: black !important;
+    border: 1px solid #35b5dd !important;
+    color: #35b5dd;
+    font-size: 12px;
+    font-weight: bold;
+    /*transition: background-color 1s, border-color 1s, color 1s;*/
+    margin: 20px;
+    float: right;
+    height: 30px;
+    width: 80px;
+    margin-top: 30px;
+}
+
+#btnLogin:hover {
+    /*background-color: black !important;*/
+    background-color: #0b7da0 !important;
+    /*border-color: #35b5dd !important;*/
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+#linksLogin {
+    background-color: black;
+    /*padding: 8px;*/
+    width: 300px !important;
+    height: 80px !important;
+    /*border: 1px solid #35b5dd !important;*/
+}
+#GetMySomeThing {
+    border: 2px solid blue;
+    background-color: blue;
+    color: wheat;
+    opacity: 0.5;
+    float:left;
+}
+/*#txtPassword {
+display:none;
+}*/

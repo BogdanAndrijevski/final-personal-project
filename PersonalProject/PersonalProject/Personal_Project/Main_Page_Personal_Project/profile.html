@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Personal Project | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+
+        <div class="containerWrapperTopSVG">
+            <div class="container">
+                <div id="logo">
+                    <h1><span class="highlight">Personal</span> Pr<span id="testLoadeing"><img id="loading" width="20px" src="http://www.vitorazevedo.net/external_files/loading_small.png"></span>ject</h1>
+                </div>
+
+
+
+                <nav>
+
+                    <ul>
+                        <li class="current"><a href="main.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="scores.html">ScoreBoard</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><div id="userNameDropdown"></div><span id="symbolDropdown"> ⥥ </span> </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="profile.html">Profile</a>
+                                <li><button id="btnLogoff">LogOff</button></li>
+
+                            </div>
+                        </div>
+                    </ul>
+
+
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="SVGwrapperBellowHeader">
+        <svg height="60">
+            <polygon points="50,0 100,0 50,50" style="fill:rgb(0, 0, 0);" />
+            <polyline points=" 100,0 49.5,51" style="stroke-width:2" />
+        </svg>
+    </div>
+
+
+    <section id="main">
+        <div class="container">
+            <section id="main">
+                <div class="container profilePageContainer">
+
+                    <div id="profileDiv">
+
+                        <div class="profleDiv" id="UserName-Profile-P">UserName:</div>
+                        <div class="profleDiv" id="UserName-Profile-P-Value"></div>
+
+                        <div class="profleDiv" id="avatarPicture-Profile-P">
+
+                            <img id="uploadPreview"  />
+
+
+                        </div>
+
+                        <div class="profleDiv" id="levelProfile-Profile-P">Level:</div>
+                        <div class="profleDiv" id="levelProfile-Profile-P-Value"></div>
+
+                        <div class="profleDiv" id="experiance-Profile-P">Experiance</div>
+                        <div class="profleDiv" id="experiance-Profile-P-Value"></div>
+
+                        <div class="profleDiv" id="reputation-Profile-P">Reputation</div>
+                        <div class="profleDiv" id="reputation-Profile-P-Value"></div>
+
+                        <div class="profleDiv" id="avatarPicture-Buttons-Profile-P">
+
+                            <form id="avatarPictureForm">
+                                <input id="uploadImage" type="file" name="myPhoto" />
+                                <input id="but_upload" type="submit" />
+                              </form>
+                              
+                              <!-- <img id="uploadPreview" style="width: 100px; height: 100px;" /> -->
+
+                        </div>
+
+                        <div class="profleDiv" id="carGameBestScore-Profile-P">Car Game Best Score</div>
+                        <div class="profleDiv" id="carGameBestScore-Profile-P-Value"></div>
+
+                        <div class="profleDiv" id="pacmanGameBestScore-Profile-P">PacMan Game Best Score</div>
+                        <div class="profleDiv" id="pacmanGameBestScore-Profile-P-Value"></div>
+
+                        <div class="profleDiv" id="deleteUserBtn" >DeleteUser</div>
+
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Something Somerhing, Copyright &copy; 2018</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/profileJavaScript.js"></script>
+</body>
+</html>

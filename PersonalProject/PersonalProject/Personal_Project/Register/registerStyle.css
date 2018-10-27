@@ -1,0 +1,188 @@
+﻿body {
+    /*background-image: url("../img/registerbackground.jpeg");*/
+  
+    /*background-repeat: no-repeat no-repeat;
+    background-size: cover;*/
+    /*background-color: black;
+    color: wheat;*/
+    /*background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 200%;*/
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+input {
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none !important;
+    /*border: 1px solid tomato;*/
+    /*color: #ccc218;*/
+    color: antiquewhite;
+    border: none;
+    border-bottom: 1px solid #35b5dd;
+    padding: 8px;
+    margin-top:8px;
+}
+#linksRegister {
+    background-color: black;
+    /*padding: 8px;*/
+    width: 300px !important;
+    height: 80px !important;
+    /*border: 1px solid #35b5dd !important;*/
+}
+::placeholder {
+    color: wheat;
+    font-size: 12px;
+}
+#mainDiv {
+    background-color: black;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -150px;
+    z-index: 99999;
+    /*width: 500px;
+    height: 600px;*/
+    /*border: 3px solid #ffc670;*/
+    border: 2px solid #ffc670;
+    padding: 12px;
+    padding-bottom: 5px;
+    /*float: center;*/
+    /*border: 3px solid #ffc670;
+    width: 500px;
+    height: 600px;
+    margin: auto auto;*/
+    /*margin-left: 30px;*/
+}
+#mainDiv input{
+    width:300px;
+}
+#loginLink {
+    /*background-color: #118cb2 !important;*/
+    /*background-color: #0b7da0 !important;
+    border: 1px solid #35b5dd !important;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;*/
+    /*transition: background-color 1s, border-color 1s, color 1s;*/
+    margin: 20px;
+    margin-left: 5px;
+    float: left;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 28px;
+    color: #35b5dd;
+    margin-top: 30px;
+}
+#loginLink:hover {
+    color:#51d5ff;
+    text-decoration: none;
+}
+#btnRegister {
+    /*background-color: #118cb2 !important;*/
+    background-color: black;
+    /* border: 1px solid #35b5dd !important; */
+    /* border: 1px solid #35b5dd; */
+    border: 1px solid #ff4949;
+    /* color: #35b5dd; */
+    color: #ff4949;
+    font-size: 12px;
+    font-weight: bold;
+    /*transition: background-color 1s, border-color 1s, color 1s;*/
+    margin: 20px;
+    float: right;
+    height: 30px;
+    width: 80px;
+    margin-top:30px;
+}
+/* 
+#btnRegister:hover {
+    background-color: #0b7da0 !important;
+    border-color: #35b5dd !important;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+} */
+
+#successModal div{
+    background-color:black;
+    color:tomato;
+
+}
+.modal-dialog {
+    width: 280px;
+   
+}
+
+.modal-dialog div {
+    width: 280px;
+    border: 0px solid black;
+}
+#successModal div .modal-header {
+    /*border: 2px solid tomato;*/
+    border-color: wheat;
+    color: #3597dd;
+    border-width: 2px 2px 0px 2px;
+}
+#successModal div .modal-body {
+    /*border: 2px solid orange;*/
+    border-color: wheat;
+    color: silver;
+    border-width: 0px 2px 0px 2px;
+}
+#successModal div .modal-footer {
+    border-color: wheat;
+    /*border: 2px solid #59dd35;*/
+    border-width: 0px 2px 2px 2px;
+}
+.close {
+    color: tomato !important;
+}
+#successModal .btn-success {
+    background-color: darkred !important;
+    border: 2px solid darkred;
+}
+#successModal .btn-success:hover {
+    background-color:  crimson !important;
+    border: 2px solid crimson;
+}
+#divError {
+    width: 300px;
+}
+#SignIn {
+    color: silver;
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom:15px;
+}
+
+::selection {
+    /* color: red; 
+    background: yellow; */
+    color: none; /* if you hold click and select item */
+    background: none; /* if you hold click and select item */
+}
+
+#divError {
+    /*background-color:aqua;
+padding:12px;*/
+font-size:12px;
+}
+#btnRegister{
+    outline: none;
+}

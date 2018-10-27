@@ -1,0 +1,292 @@
+*{
+padding: 0px;
+
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+   
+
+#container{
+    position: relative;
+    /* height: 90vh; */
+    height: 553px;
+    width: 900px;
+    /* width: 25%; */
+    /* left: 35%; */
+    /* left: 16%; */
+    left: 14%;
+    margin-top: 13px;
+    /* background-color: #141414; */
+    background-color: rgb(12, 12, 12);
+    /* background-image: url("aa.jpg"); */
+    background-size: 300px 553px ;
+    
+    overflow: hidden;
+    /* border: 2px solid greenyellow; */
+    border: 2px solid #ffc670;
+    /* display: none; */
+    /* display: none; */
+}
+.line{
+    position: absolute;
+    height: 150px;
+    width: 1%;
+    margin-left: 32%;
+    background-color: rgba(255,255,255,0.5);
+}
+.line2{
+    position: absolute;
+    height: 150px;
+    width: 1%;
+    margin-left: 65%;
+    background-color: rgba(255,255,255,0.5);
+}
+#line_1, #line_4{
+    top: -150px;
+}
+#line_2, #line_5{
+    top: 150px;
+}
+#line_3, #line_6{
+    top: 450px;
+}
+.car{
+    position: absolute;
+    /* height: 60px;
+    width: 40px; */
+    height: 70px;
+    width: 45px;
+    border-radius: 5px;
+    /* box-shadow: 0px 1px 8px 0px black; */
+}
+#car{
+    height: 70px;
+    width: 45px;
+    bottom: 8%;
+    left: 47%;
+   background-image: url("img/myCar.png");
+}
+
+#car_1{
+    top: -80px;
+    left: 60%;
+    background-image: url("img/car.png");
+}
+#car_2{
+    top: -160px;
+    left: 40%;
+    background-image: url("img/car.png");
+}
+#car_3{
+    top: -240px;
+    left: 50%;
+    background-image: url("img/car.png");
+}
+#car_4{
+    top: -320px;
+    left: 70%;
+    background-image: url("img/car.png");
+}
+#car_5{
+    top: -400px;
+    left: 80%;
+    background-image: url("img/car.png");
+}
+#car_6{
+    top: -480px;
+    left: 20%;
+    background-image: url("img/car.png");
+}
+#car_7{
+    top: -560px;
+    left: 90%;
+    background-image: url("img/car.png");
+}
+#car_8{
+    top: -640px;
+    left: 10%;
+    background-image: url("img/car.png");
+}
+#car_9{
+    top: -720px;
+    left: 10%;
+    background-image: url("img/car.png");
+}
+#start_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: #080808; */
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    z-index: 999;
+
+    /* display: none; */
+}
+#restart_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: #080808; */
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(Fonts/pizzabot.ttf);
+   
+}
+#score, #scoreText {
+    font-family:  myThirdFont;
+    color: wheat;
+    text-align: center;
+}
+#score{
+    color:#ff6464;
+}
+#restart {
+    font-family:  myThirdFont;
+    border: none;
+    padding: 25px;
+    color: white;
+    border: 2px solid #beff0a;
+    color:  #beff0a;
+    background-color: transparent;
+    font-size: 30px;
+    margin-top: 25%;
+    outline: none; 
+    transition: color 3s, background 3s;
+}
+#start{
+    font-family:  myThirdFont;
+    /* border: none; */
+    /* padding: 25px; */
+    width: 200px;
+    height: 100px;
+    /* color: white; */
+    border: 2px solid #beff0a;
+    color:  #beff0a;
+    background-color: black;
+    font-size: 30px;
+    margin-top: 15%;
+    outline: none; 
+    transition: color 3s, background 3s;
+    cursor: pointer;
+    outline: none; 
+}
+#start:hover {
+    background-color: #beff0a;
+    color:  black;
+}
+
+
+#BackToMainPage{
+
+    font-family:  myThirdFont;
+    color: #43c4ff;
+    background-color: black;
+    border: 2px solid #43c4ff;
+    font-size: 30px;
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100px;
+
+    transition: color 3s, background 3s;
+    cursor: pointer;
+    outline: none; 
+
+}
+
+#BackToMainPage:hover {
+    background-color: #43c4ff;
+    color:  black;
+}
+
+#restart:hover {
+    background-color: #beff0a;
+    color:  black;
+}
+.small_text{
+    font-size: 15px;
+}
+#score_div{
+    
+    position: absolute;
+    /* margin-top: 0%;
+    margin-left: 5%; */
+    margin-top: 0px;
+    margin-left: 15px; 
+    font-size: 35px;
+    background-color: transparent;
+    color: #eefa85;
+    /* margin: 0px !important; */
+    padding: 0px;
+    z-index: 999;
+    /* box-shadow: 4px 4px 0px 1px #808080; */
+}
+
+#newStart2, #Check, #BackToMainManu{
+    margin-right: 5px; 
+    margin-top: 5px; 
+    /* za krug */
+    /* border-radius: 25px; */
+    border-radius: 4px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 1px solid salmon;
+    background-color: salmon;
+    opacity: 0.8;
+    z-index: 999;
+    right: 0;
+    font-size: 15px;
+    color: #b40b0b;
+    /* padding: 10px; */
+    cursor: pointer;
+    outline: none; 
+}
+
+#Check{
+    margin-right: 47px; 
+    font-size: 18px;
+
+}
+#newStart2{
+    position: absolute;
+    background-color: salmon;
+    z-index: 999;
+    right: 0;
+    margin-right: 90px; 
+    font-size: 23px;
+
+}
+
+#BackToMainManu{
+    position: absolute;
+    border: 1px solid rgb(214, 193, 0);
+
+    background-color: rgb(214, 193, 0);
+
+    color: #524300;
+font-size: 22px;
+    z-index: 999;
+    right: 0;
+    /* margin-right: 47px;  */
+}

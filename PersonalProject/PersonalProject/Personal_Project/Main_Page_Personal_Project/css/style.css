@@ -1,0 +1,967 @@
+/* showcase
+mainSection */
+/* newsletter
+midSection */
+/* logo
+logo */
+body{
+  /* font: 15px/1.5 Arial, Helvetica,sans-serif; */
+  font: 15px/1.5 myFont, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#3a3a3a;
+}
+
+button{
+  outline: none;
+}
+.containerWrapperTopSVG{
+   /* padding-top:10px; */
+  box-sizing: border-box;
+  /* float: left; */
+  /* margin:auto; */
+
+  margin-left: 100px;
+  border-bottom: 2px solid #e8491c;
+  height: 70px;
+  padding-right: 11px;
+  padding-top: 8px;
+  /* margin:auto; */
+
+  /* width: 100%; */
+}
+
+.about-services{
+  padding-left: 89px;
+}
+
+.container{
+padding: 10px;
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header .container{
+  width: 95%;
+padding: 0px !important;
+padding-top: 100px;
+margin-top: 0px;
+}
+
+/* header */
+.SVGwrapperBellowHeader{
+    background-color: black;
+    color: #b2d100;
+  padding: 0px;
+  margin: 0px;
+    width: 50px;
+    height: 50px;
+    border-bottom: 2px solid #e8491c ;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  box-sizing: border-box;
+  background:black;
+  color:#ffffff;
+  height: 70px; 
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  /* text-transform: uppercase; */
+  font-size:16px;
+}
+
+
+header #logo{
+  float:left;
+}
+
+header #logo h1{
+  margin:0;
+}
+
+header nav, .dropdown{
+  float:right;
+  /* margin-top:10px; */
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* mainSection */
+#mainSection{
+  min-height:400px;
+  /* background:url('../img/showcase.jpg') no-repeat 0 -400px; */
+  text-align:center;
+  color:#ffffff;
+}
+
+#mainSection h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#mainSection p{
+  font-size:20px;
+}
+
+/* midSection */
+#midSection{
+  padding:15px;
+  color:#ffffff;
+  /* background:#35424a */
+  background: black;
+}
+
+#midSection h1{
+  margin-top: 14px;
+
+  float:left;
+}
+
+#midSection form {
+  float:right;
+  margin-top:5px;
+}
+
+#midSection input[type="email"]{
+  margin-top: 6px;
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+/* #boxes{ */
+.box{
+  margin-top:40px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #logo,
+  header nav,
+  header nav li,
+  #midSection h1,
+  #midSection form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #mainSection h1{
+    margin-top:40px;
+  }
+
+  #midSection button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #midSection form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+
+polygon{
+  margin: 0px;
+  padding: 0px;
+}
+
+polyline { fill: yellow; stroke: #e8491c; }
+
+#backgroundPictureDiv{
+
+  background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+}
+
+#gameOne, #gameTwo{
+  margin: 20px;
+  border: 2px solid wheat;
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: 80%;
+}
+#gameOne{
+
+  background: url('../img/packman_game.png');
+  background-size: 100% 100%;
+}
+#gameTwo{
+  margin-top: 60px;
+  margin-bottom: 80px;
+
+  background: url('../img/car_game.jpg');
+  background-size: 100% 100%;
+  /* background-size: 120px 120px; */
+  /* background-size: 120px 120px; */
+}
+.SVGwrapperAboveMiddle{
+   box-sizing: border-box;
+/* border: 2px solid red; */
+height: 50px;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: red; */
+}
+
+#svg2{
+  float: left;
+}
+
+.divRightOfAboveMiddleSVG{
+
+  box-sizing: border-box;
+  /* float: left; */
+  background-color: black;
+  margin-left: 100px;
+  border-top: 2px solid #e8491c;
+  height: 100%;
+  /* width: 100%; */
+}
+#divOnLeftBetweenMiddleSVGs{
+  box-sizing: border-box;
+  border-top: 2px solid #e8491c;
+
+    /* box-sizing: border-box; */
+ float: left;
+ border-top: 2px solid #e8491c;
+ border-bottom: 2px solid #e8491c;
+
+ height: 80px;
+ width: 50px;
+ margin: 0px;
+ padding: 0px;
+}
+#midSection{
+  height: 80px;
+   margin: 0px;
+  padding: 0px;
+}
+
+.SVGwrapperBelowMiddle{
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.divRightOfBelowMiddleSVG{
+  box-sizing: border-box;
+  background-color: black;
+  margin-left: 100px;
+  border-bottom: 2px solid #e8491c;
+  height: 100%;
+}
+
+#playerInfo{
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  border: 2px solid #e8491c;
+  left: 0;
+  top: 0;
+  width:250px;
+  /* height:300px; */
+  height:300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  opacity: 1;
+  /* display:none;  */
+}
+
+
+.playerInfoCoatOne{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #409929;
+  opacity: 0.5;
+}
+.playerInfoCoatTwo{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.8;
+}
+.playerInfoCoatThree{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #000000; */
+  /* opacity: 0.3; */
+}
+
+.InfoDiv{
+  box-sizing: border-box;
+/* border: 1px dashed green; */
+  /* height: 25%; */
+  height: 16%;
+  font-size: 20px;
+  /* font-family: "Comic Sans MS", cursive, sans-serif; */
+  font-family: myFont, cursive, sans-serif;
+  font-style: oblique;
+  opacity: 1;
+  padding: 5px;
+}
+
+.InfoDiv
+{
+    color: wheat;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#testLoadeing{
+margin-left:2px;
+}
+#loading {
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+/* Fonts */
+@font-face {
+  font-family: myFont;
+  /* src: url(ROCKET__.TTF); */
+  /* src: url(pizzabot.ttf); */
+  /* src: url(Stare-Buckle-Fight.otf); */
+  /* src: url(SheStolethePleasure.ttf); */
+  src: url(Fonts/RoboPixiesNew.ttf);
+  /* src: url(MandroidBB.ttf); */
+  /* src: url(destructobeambb_reg.ttf); */
+ 
+}
+
+
+.type2, .type, .type3{
+  /* width: auto; */
+/* display: inline-block !important; */
+} 
+
+span{
+  margin-left: 1px;
+text-align: left;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 16px;
+  background-color: transparent;
+  /* font-size: 16px; */
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  /* position: relative; */
+  /* display: inline-block; */
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272626;
+  /* background-color: black; */
+opacity: 0.8;
+  /* min-width: 160px; */
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   margin-left: 10px; /*mine added */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(238, 238, 238);
+  /* padding: 12px 16px; */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: myFont;
+  /* color: red; */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(0, 0, 0);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+#symbolDropdown{
+
+  color:#d9ff00;
+
+}
+.dropbtn{
+  padding: 0 20px 0 20px;
+  color:#e8491d;
+  font-weight:bold;
+  font-family: myfont;
+
+  color:#00b7ff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  height: 50px;
+  /* border: 2px solid greenyellow; */
+}
+
+
+header li{
+  box-sizing: border-box;
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  height: 50px;
+  /* border: 2px solid greenyellow; */
+  line-height: 50px;
+  text-align: center;
+  /* margin-top: 0px; */
+}
+
+header nav, .dropdown{
+  float:right;
+  /* margin-top:10px; */
+}
+/* 
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+} */
+.dropdown{
+  float:left;
+  display:inline;
+
+}
+.InfoDiv{
+  box-sizing: border-box;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  padding-left: 15px; 
+
+  /* border: 1px dashed greenyellow; */
+
+  padding: 0px; 
+
+}
+
+/* Ova moze da ne ti treba ako go imas ova gore */
+/* proba za typing */
+/* .UserNameValuetype{ */
+.type{
+  box-sizing: border-box;
+  float: left;
+  /* border: 2px solid tomato; */
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  /* ako vo  #UserNameValue padding e nula togas ova ti treba.
+  ama samo vertikalno ke se centrira textot*/
+ display: flex;
+  align-items: center;
+  /* Ova e za horizontalno da se centrira textot */
+  /* justify-content: center; */
+
+  justify-content: left;
+  padding-left: 10px;
+}
+/* .Rep{
+  padding: 0px;
+  justify-content: center;
+} */
+.typeLabel{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: left;
+  padding-left: 10px !important;
+}
+#UserName{
+  float: left;
+  box-sizing: border-box;
+  width: 30%;
+  /* border: 2px solid yellow; */
+
+  padding: 0px; 
+}
+#UserNameValue{
+  float: left;
+  
+  box-sizing: border-box;
+  width: 70%;
+  /* border: 2px solid yellow; */
+  padding: 0px; 
+}
+
+/* UserInfo Details */
+/* #Reputation, #ReputationValue ,#Level, #LevelValue{ */
+#Level, #LevelValue, #Experiance, #ExperianceValue{
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+}
+#ReputationValue, #ReputationName{
+  float: left;
+
+  box-sizing: border-box;
+  width: 25%;
+  /* border: 2px solid salmon; */
+}
+#AvatarPicture{
+  float: left;
+
+  box-sizing: border-box;
+  width: 50%;
+  /* border: 2px solid salmon; */
+}
+.UserNameValuetype{
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+}
+#CarBestScore, #PackManBestScore{
+  box-sizing: border-box;
+  float: left;
+  width: 70%;
+}
+
+#CarBestScoreValue, #PackManBestScoreValue{
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+}
+
+#CarBestScore,#PackManBestScore{
+  font-size: 13px;
+}
+
+#ReputationValue, #AvatarPicture, #ReputationName{
+  height: 19%;
+}
+#levelPercentage{
+  float: left;
+padding: 0px;
+width: 100%;
+}
+#outerPercentageDiv{
+  padding: 3px;
+
+  border: 2px solid greenyellow;
+  height: 20px;
+  width: 200px;
+  margin: auto auto;
+}
+#innerPercentageDiv{
+  box-sizing: border-box;
+  border: 1px solid tomato;
+  background-color: tomato;
+  height: 100%;
+  /* width: 10%; */
+  width: 0%;
+}
+
+/* SCORE */
+
+#scoreTable{
+  border: 2px solid #e8491c;
+}
+
+th{
+  height: 40px;
+  width: 250px;
+  color: wheat;
+}
+td{
+  height: 40px;
+  /* width: 350px; */
+  color: wheat;
+/* max-width: 100px; */
+  text-align: center;
+
+}
+#th-Rep, #th-Lvl{
+  /* width: 140px; */
+  width: 10%;
+
+}
+#th-Username{
+  /* width: 350px !important; */
+  width: 40%;
+  /* padding: 2px; */
+}
+#th-Car, #th-PacMan{
+  /* width: 20%; */
+
+}
+#scoreTable tbody tr td {
+  background-color: #a35635;
+}
+
+#scoreTable tbody tr td:nth-child(odd) {
+  background-color: #828e20;
+}
+
+
+/* OTHER */
+#userNameDropdown{  
+  display: inline-block;
+  min-width: 20px;
+  /* color: #d9ff00; */
+  text-align: right;
+  /* border: 2px solid red; */
+}
+.dropdown-content > li{
+  padding: 0px;
+  width: 100%;
+}
+#btnLogoff{
+ float: left;
+  height: 100%;
+  width: 100%;
+  font-family: myFont;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  /* color: #d9ff00; */
+  color: greenyellow;
+  /* text-align: left; */
+  /* width: 120px; */
+}
+#btnLogoff:hover{
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+
+/* Profile Page */
+
+#profilePageContainer{
+  display: flex;
+}
+#profileDiv{
+  /* display: flex; */
+margin: auto;
+  border: 2px solid #e8491c;
+  /* border: 4px solid #1ce83e; */
+  /* width: 800px; */
+  width: 90%;
+  /* min-height: 342px; */
+  height: 342px;
+  /* height: 100%; */
+  margin-bottom: 40px; 
+}
+.profleDiv{
+  box-sizing: border-box;
+ float: left;
+ border: 2px solid #e8491c;
+ min-width: 50px;
+ min-height: 57px;
+ color: wheat;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+#UserName-Profile-P{
+/* margin-left: 20px; */
+width: 30%;
+
+}
+#UserName-Profile-P-Value{
+  width: 42%;
+}
+
+#avatarPicture-Profile-P{
+  float: right;
+ border: 2px solid wheat;
+width: 28%;
+/* height: 42%; */
+height: 200px;
+}
+
+#avatarPicture-Buttons-Profile-P{
+  float: right;
+ border: 2px solid lightskyblue;;
+width: 28%;
+min-height: 85px;
+
+
+}
+#levelProfile-Profile-P {
+  /* margin-top: 80px; */
+  /* margin-left: 10px; */
+width: 30%;
+
+}
+
+#levelProfile-Profile-P-Value{
+  width: 42%;
+}
+#experiance-Profile-P{
+width: 30%;
+
+}
+
+#experiance-Profile-P-Value{
+  width: 42%;
+}
+
+#reputation-Profile-P{
+width: 30%;
+
+}
+
+
+#reputation-Profile-P-Value{
+  width: 42%;
+  
+  }
+
+  
+#carGameBestScore-Profile-P{
+  width: 30%;
+}
+
+#carGameBestScore-Profile-P-Value{
+  width: 42%;
+  
+  }
+
+  
+#pacmanGameBestScore-Profile-P{
+  width: 30%;
+}
+
+#pacmanGameBestScore-Profile-P-Value{
+  width: 42%;
+  
+  }
+
+  #deleteUserBtn{
+    
+    border: 4px solid wheat;
+    background-color: #e8491c;
+    color: wheat;
+    font-size: 25px;
+  width: 28%;
+  /* height: 50px; */
+
+  }
+
+#avatarPictureForm{
+    float: left;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 81px;
+    margin: 0px;
+}
+#avatarPictureForm input{
+  box-sizing: border-box;
+background: black;
+color: yellow;
+border: 2px solid greenyellow;
+
+}
+#uploadImage{
+  width: 100%;
+height: 25px;
+
+}
+#but_upload{
+  width: 100%;
+height: 56px;;
+}
+
+#avatarPicture-Buttons-Profile-P{
+position: relative;
+}
+
+#uploadPreview{
+
+float: left;
+box-sizing: border-box;
+border: 2px solid salmon;
+height: 180px;
+width: 180px;
+}
+#AvatarPicturePreview{
+/* float: right; */
+margin-left: 50px;
+margin-top: 20px;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;;
+  border: 1px solid yellow;
+
+  padding: 0px; 
+
+}
+.scoreBoardContainer{
+  min-height: 820px;
+}
+
+.scoreBoardContainer button{
+  background-color: rgb(94, 3, 3);
+  /* background-color: rgb(85, 1, 1); */
+  border: 1px solid wheat;
+ color: wheat;
+ font-family: myFont;
+ height: 30px;
+ margin-bottom: 5px;
+}
+
+
+.scoreBoardContainer input{
+  outline: none;
+  float: right;
+  /* left: 0px; */
+  background-color: black;
+  border: 1px solid #e8491c;
+  color: wheat;
+  height: 26px;
+ font-family: myFont;
+
+  margin-bottom: 5px;
+  /* margin-left: 5px; */
+  padding-left: 3px;
+}
+
+::placeholder{
+  color: wheat;
+  font-family: myFont;
+
+}
