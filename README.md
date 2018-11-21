@@ -4,6 +4,7 @@ The Project mainly revolves around two small games that the user can play and ga
 It also consist of users scoreboard, login and registering user, showing user details, choosing a avatar picture etc...
 
 Front End: Using HTML/CSS, JavaScript, JQuery
+Front End Part Destination In Project: FinalPersonalProject/PersonalProject/PersonalProject/Personal_Project/...
 
 Back End: Using Asp.Net - Web Api 2 Identity
 
