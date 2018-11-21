@@ -870,13 +870,15 @@ width: 30%;
   
   }
 
-  #deleteUserBtn{
+#deleteUserBtn{
     
     border: 4px solid wheat;
     background-color: #e8491c;
     color: wheat;
     font-size: 25px;
   width: 28%;
+ font-family: myFont;
+
   /* height: 50px; */
 
   }

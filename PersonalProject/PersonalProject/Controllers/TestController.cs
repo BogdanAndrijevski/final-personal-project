@@ -12,13 +12,6 @@ namespace PersonalProject.Controllers
     {
         ApplicationDbContext db = new ApplicationDbContext();
 
-        [Route("Personal_Project/Main_Page_Personal_Project/Games/Cars/Test")]
-        [HttpGet]
-        public int Test()
-        {
-            return 22;
-        }
-
         [Route("Personal_Project/GetMySomeThing")]
         [HttpGet]
         public IEnumerable<UserModel> Get()
@@ -27,12 +20,11 @@ namespace PersonalProject.Controllers
             {
                 Email = r.Email,
                 Name = r.UserName
-               
+
             });
 
             return listOfUsers.ToList();
         }
-
 
     }
 }

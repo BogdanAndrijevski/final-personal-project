@@ -142,14 +142,11 @@ function repeat() {
     || RC.collision(RC.car, RC.car_4) || RC.collision(RC.car, RC.car_5) || RC.collision(RC.car, RC.car_6)
     || RC.collision(RC.car, RC.car_7) || RC.collision(RC.car, RC.car_8) || RC.collision(RC.car, RC.car_9)) {
         RC.stop_the_game();
-        RC.Game.is_Pause_Resume_Available = false; // samo ova e novo - return si stoi
+        RC.Game.is_Pause_Resume_Available = false; 
    
     RC.Game.start_div.fadeIn(1000);
    
     CarGameEndGameUpdate(6, RC.Game.my_score);
-
-
-        // alert();
         return;
     }
 
@@ -370,11 +367,6 @@ $('#Test').click(function () {
 
 
 
-
-
-$('#CarsEndGameUpdate').click(function () {
-    CarGameEndGameUpdate(6, 1500);
-});
 
 function CarGameEndGameUpdate(_exp, _score) {
 

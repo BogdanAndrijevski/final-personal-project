@@ -42,7 +42,7 @@
             , ghostNum: 0
             , ghostNum2: 0
         };
-
+        
         let isPauseResumeAvailable = false;
 
         let playContainer =  $("#container");
@@ -59,7 +59,7 @@
         var mainImage;
         mainImage = new Image();
         mainImage.ready = false; 
-        mainImage.src = "pac1.png";
+        mainImage.src = "pac.png";
 
         //add key listener
         var keyclick = {};
@@ -486,12 +486,6 @@ $('#BackToMainManu, #BackToMainPage').click(function () {
     window.location.href = "../../main.html";
 });
 
- //========================================================================================
-
-$('#PacmanGameEndGameUpdate').click(function () {
-    PacmanGameEndGameUpdate(6,3600);
-});
- 
  //========================================================================================
  function PacmanGameEndGameUpdate(_exp, _score) {
         myData = {

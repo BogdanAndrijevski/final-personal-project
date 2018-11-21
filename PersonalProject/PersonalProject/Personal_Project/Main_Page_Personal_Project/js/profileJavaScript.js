@@ -16,23 +16,24 @@ getProfilePageInfo();
 
     
     //  Ne raboti
-    // $('#deleteUserBtn').click(function () {
-
-    //     $.ajax({
-    //         url: 'Profile/DeleteUser',
-    //         method: 'DELETE',
-    //         headers: {
-    //         'Authorization': 'Bearer '
-    //             + sessionStorage.getItem("accessToken")
-    //         },
-    //         success: function (data) {
-    //             sessionStorage.removeItem('accessToken');
-    //             window.location.href = "../Login.html";
-    //         },
-    //         error: function (jQXHR) {
-    //         }
-    //     });
-    // });
+     $('#deleteUserBtn').click(function () {
+         //   alert();
+         $.ajax({
+             url: 'Profile/DeleteUser',
+             method: 'DELETE',
+             headers: {
+             'Authorization': 'Bearer '
+                 + sessionStorage.getItem("accessToken")
+             },
+             success: function (data) {
+                 sessionStorage.removeItem('accessToken');
+                 window.location.href = "../Login.html";
+               // console.log(data)
+             },
+             error: function (jQXHR) {
+             }
+         });
+     });
     
 function getProfilePageInfo() {
     

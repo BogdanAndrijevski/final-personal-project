@@ -56,10 +56,36 @@ namespace PersonalProject.Controllers
         [Authorize]
         public void DeleteUser()
         {
-            ApplicationUser LoggedUser = User.GetLoggedInUserInDB();
+            // not working with these two
+            //ApplicationUser LoggedUser2 = User.GetLoggedInUserInDB();
+            //var id = LoggedUser2.Id;
+
+            string userId = User.Identity.GetUserId();
+            ApplicationUser LoggedUser = db.Users.Find(userId);
+
             db.Users.Remove(LoggedUser);
+           
+            CarGame carGame = db.CarGame.Find(userId);
+            PackManGame packManGame = db.PackManGame.Find(userId);
+            
+            db.CarGame.Remove(carGame);
+            db.PackManGame.Remove(packManGame);
+          
             db.SaveChanges();
+           
         }
 
     }
 }
+
+//ApplicationUser LoggedUser = User.GetLoggedInUserInDB();
+//var id = LoggedUser.Id;
+
+//CarGame carGame = db.CarGame.Find(id);
+//PackManGame packManGame = db.PackManGame.Find(id);
+
+//db.CarGame.Remove(carGame);
+//db.PackManGame.Remove(packManGame);
+//db.Users.Remove(LoggedUser);
+
+//db.SaveChanges();

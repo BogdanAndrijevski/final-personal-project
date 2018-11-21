@@ -237,14 +237,12 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CarGameController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MainPageController.cs" />
     <Compile Include="Controllers\PackManGameController.cs" />
     <Compile Include="Controllers\ProfilePageController.cs" />
     <Compile Include="Controllers\RegisterPageController.cs" />
     <Compile Include="Controllers\ScoreBoardController.cs" />
     <Compile Include="Controllers\TestController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -284,31 +282,19 @@
     <Content Include="Personal_Project\Main_Page_Personal_Project\backgrounds\image9.jpg" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\css\style.css" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\Cars.html" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car - 93.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car - backUp.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car - Copy %282%29.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car - Copy %283%29.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car - Copy %284%29.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car - Copy.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car-70.png" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\car22.png" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\myCar.png" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\pixel-art-style-racing-cars-set-vector-8806006 - Copy %282%29.jpg" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\pixel-art-style-racing-cars-set-vector-8806006 - Copy.jpg" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\pixel-art-style-racing-cars-set-vector-8806006.jpg" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\img\theRightOne\car.png" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\CSS\style.css" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Cars\JS\carsJS.JS" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Pacman\netImg.js" />
+    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Pacman\pac.png" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Pacman\Packman.html" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Pacman\javascript.js" />
-    <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Pacman\pac1.png" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\Games\Pacman\style.css" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\img\picOne.jpg" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\img\picThree.jpg" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\img\picTwo.jpg" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\js\aboutJavaScript.js" />
+    <Content Include="Personal_Project\Main_Page_Personal_Project\js\profileJavaScript.js" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\js\scoreJavaScript.js" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\main.html" />
     <Content Include="Personal_Project\Main_Page_Personal_Project\js\mainJavascript.js" />
@@ -376,11 +362,6 @@
     </Content>
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\Site.css" />
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Addition\" />
@@ -411,7 +392,9 @@
     <Content Include="Content\bootstrap-theme.css.map" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>

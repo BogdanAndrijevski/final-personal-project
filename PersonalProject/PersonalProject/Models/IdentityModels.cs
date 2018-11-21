@@ -40,5 +40,9 @@ namespace PersonalProject.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<PersonalProject.Models.CarGame> CarGame { get; set; }
+
+        public System.Data.Entity.DbSet<PersonalProject.Models.PackManGame> PackManGame { get; set; }
     }
 }
